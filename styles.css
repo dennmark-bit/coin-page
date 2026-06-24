@@ -883,8 +883,8 @@ code {
 }
 
 .faq__item summary {
-  padding: 24px 0;
-  font-size: 17px;
+  padding: 14px 0;
+  font-size: 16px;
   font-weight: 500;
   cursor: pointer;
   list-style: none;
