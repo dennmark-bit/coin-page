@@ -1068,13 +1068,29 @@ code {
 
 @media (max-width: 600px) {
   .hero {
-    padding-top: 120px;
-    min-height: 90vh;
+    padding: 48px 20px 60px !important;
+    min-height: auto !important;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 24px !important;
+    position: relative !important;
+  }
+
+  .hero__inner {
+    width: 100% !important;
+    padding-right: 0 !important;
   }
 
   .coin {
-    width: clamp(110px, 30vw, 160px);
-    align-self: center;
+    position: absolute !important;
+    top: 80px !important;
+    right: 12px !important;
+    width: 38% !important;
+    max-width: 140px !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+    z-index: 1 !important;
+    opacity: 0.95 !important;
   }
 
   .hero__stats {
